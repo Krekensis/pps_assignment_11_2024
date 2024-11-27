@@ -1,3 +1,7 @@
+/*
+Shit took me 2hrs to figure out the algo.
+Format is not according to the question so remove unwanted stuff
+*/
 #include <stdio.h>
 
 int main() {
