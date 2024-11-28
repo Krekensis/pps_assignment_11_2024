@@ -83,7 +83,7 @@ int main() {
     for (int i = 0; i < n * n; i++) {
         printf("%d ", sorted[i]);
     }
-    //printf("\n===============================\n");
+    printf("\n");
 
     //printf("Enter the value of p: ");
     scanf("%d", &p);
