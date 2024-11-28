@@ -21,8 +21,6 @@ int findingNemo(int arr[], int n, int target) {
 
 int main() {
     int n, k, t;
-
-    printf("Input:\n");
     if (scanf("%d", &n) != 1 || n < 1 || n > 100000) {
         printf("-1\n");
         return 0;
@@ -51,7 +49,6 @@ int main() {
         reverse(nums, k, n - 1); //[0 ... k-1, >>>> k ... n-1 <<<<]
     }
 
-    printf("Output:\n");
     for (int i = 0; i < n; i++) {
         printf("%d ", nums[i]);
     }
