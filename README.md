@@ -16,4 +16,5 @@
 > ![image](https://github.com/user-attachments/assets/c79b57f9-5a08-40ed-8879-a14814c59943)
 
 ### Ques 5 output:
-> ![image](https://github.com/user-attachments/assets/c464efba-66c2-43b0-b1ec-342301c743de)
+> ![image](https://github.com/user-attachments/assets/43d1e486-20a5-4bc9-8753-8c2440e14244)
+
