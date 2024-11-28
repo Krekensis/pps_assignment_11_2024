@@ -10,9 +10,10 @@
 > ![image](https://github.com/user-attachments/assets/a8a863cf-3387-4d01-bfee-f466b35e66c9)
 
 ### Ques 4a output:
-![image](https://github.com/user-attachments/assets/7ec4b3b7-ca1e-44a4-a2c7-38be8df71e89)
+> ![image](https://github.com/user-attachments/assets/7ec4b3b7-ca1e-44a4-a2c7-38be8df71e89)
 
 ### Ques 4b output:
-![image](https://github.com/user-attachments/assets/c79b57f9-5a08-40ed-8879-a14814c59943)
+> ![image](https://github.com/user-attachments/assets/c79b57f9-5a08-40ed-8879-a14814c59943)
 
 ### Ques 5 output:
+> ![image](https://github.com/user-attachments/assets/c464efba-66c2-43b0-b1ec-342301c743de)
