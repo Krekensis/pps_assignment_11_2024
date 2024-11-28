@@ -26,11 +26,20 @@ int main() {
         return 1;
     }
 
+    int result[10000];
+    int count = 0;
+
     for (int i = left; i <= right; i++) {
         if (selfdiv(i)) {
-            printf("%d ", i);
+            result[count++] = i;
         }
     }
-    printf("\n");
+    printf("[");
+    for (int i = 0; i < count; i++) {
+        if (i > 0) printf(", ");
+        printf("%d", result[i]);
+    }
+    printf("]\n");
+
     return 0;
 }
