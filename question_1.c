@@ -7,7 +7,7 @@ Format is not according to the question so remove unwanted stuff
 int main() {
     int n, p;
 
-    printf("Enter the size of the matrix: ");
+    //printf("Enter the size of the matrix: ");
     scanf("%d", &n);
 
     int array[n][n];
@@ -15,11 +15,11 @@ int main() {
     int numberthingy[n * n];
     int index = 0;
 
-    printf("Enter %d elements for the matrix:\n", n * n);
+    //printf("Enter %d elements for the matrix:\n", n * n);
     for (int i = 0; i < n * n; i++) {
         scanf("%d", &array[i / n][i % n]);
     }
-    printf("===============================\n");
+    /*printf("===============================\n");
     printf("Input matrix:\n");
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
@@ -28,6 +28,7 @@ int main() {
         printf("\n");
     }
     printf("===============================\n");
+    */
    
     for (int x = 0; x < n; x++) {
         if (x % 2 == 0) {
@@ -78,13 +79,13 @@ int main() {
     }
 
     
-    printf("Serpentine order array:\n");
+    //printf("Serpentine order array:\n");
     for (int i = 0; i < n * n; i++) {
         printf("%d ", sorted[i]);
     }
-    printf("\n===============================\n");
+    //printf("\n===============================\n");
 
-    printf("Enter the value of p: ");
+    //printf("Enter the value of p: ");
     scanf("%d", &p);
 
 
@@ -108,7 +109,7 @@ int main() {
         int row = aaaa / n;
         int col = aaaa % n;
 
-        printf("Element is %d. Row index = %d, Column index = %d.\n", sorted[p - 1], row, col);
+        printf("%d %d %d.\n", row, col, sorted[p - 1]);
     } else {
         printf("Invalid value of p.\n");
     }
