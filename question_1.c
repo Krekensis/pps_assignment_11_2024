@@ -109,7 +109,7 @@ int main() {
         int row = aaaa / n;
         int col = aaaa % n;
 
-        printf("%d %d %d.\n", row, col, sorted[p - 1]);
+        printf("%d %d %d\n", row, col, sorted[p - 1]);
     } else {
         printf("Invalid value of p.\n");
     }
